@@ -5,7 +5,7 @@ import os
 
 import blackboxprotobuf
 import streamlit as st
-
+f
 st.set_page_config(
     page_title="Teamspeak 6 Extractor",
     page_icon="🔍",
@@ -292,7 +292,7 @@ st.header(f"Row `{rowid}`")
 
 creds = extract_credentials(message) if message else None
 if creds:
-    st.success("✅ Matrix credentials found in thsi row!")
+    st.success("✅ Matrix credentials found in this row!")
     c1, c2, c3 = st.columns(3)
     with c1:
         st.markdown("**Home server**")
