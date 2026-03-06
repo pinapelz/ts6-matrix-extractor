@@ -2,6 +2,13 @@
 
 This is a tool built for extracting your Matrix credentials from Teamspeak 6 to access the chat functionalities from Matrix compatible clients.
 
+You can either run locally via `uv` or use the hosted version: https://ts6-extractor.streamlit.app
+
+```bash
+uv sync
+uv run streamlit run app.py
+```
+
 ## Usage
 Using the sidebar, load your `settings.db. You can find it in the locations listed below:
 
