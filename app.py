@@ -5,7 +5,7 @@ import os
 
 import blackboxprotobuf
 import streamlit as st
-f
+
 st.set_page_config(
     page_title="Teamspeak 6 Extractor",
     page_icon="🔍",
